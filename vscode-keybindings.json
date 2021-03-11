@@ -1,0 +1,21 @@
+[
+    {
+        "key": "ctrl+e",
+        "command": "actions.findWithSelection"
+    },
+    {
+        "key": "cmd+e",
+        "command": "cursorLineEnd",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "cmd+r",
+        "command": "cursorDown",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "shift+cmd+l",
+        "command": "editor.action.deleteLines",
+        "when": "textInputFocus && !editorReadonly"
+    }
+]
